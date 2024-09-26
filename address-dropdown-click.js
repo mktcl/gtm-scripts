@@ -1,5 +1,5 @@
 (function(){  
-  console.log('%caddress_dropdown_click github script', 'font-size:3rem;color:red;');
+  console.log('%caddress_dropdown_click github script', 'font-size:2rem;color:red;');
   var pushToDataLayer = function (){
     dataLayer.push({event:'address_dropdown_click'});
   }
