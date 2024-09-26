@@ -1,5 +1,5 @@
 (function(){
-console.log('%cdeposit_slider github script', 'font-size:2rem;color:red;');
+console.log('%cform_change github script', 'font-size:2rem;color:red;');
 var targetsName = new RegExp(/(?:email|dateOfBirth|phoneNumber|fullname|houseNumber|postcode|house|street|town|county|username|password|depositAmount|limitAmount|fullName|(first|last)\sname)/);
   
 var pushToDataLayer = function(el){          
